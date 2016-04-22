@@ -35,20 +35,57 @@
 		font-style: italic;
 	}
 
-	.devicon {
-  	font-size: 50px;
-		padding: 10px 5px 5px 0;
-		margin-left: 5px;
-		margin-bottom: 5px;
-		color: #d9d9d9;
+	.welcome {
+		top: 35%;
+		font-size: 60px;
+		position: absolute;
+		display: inline-block;
+		width: 900px;
+		padding: 0 150px;
 	}
 
+	.devicon {
+		float: left;
+  	font-size: 100px;
+		padding: 10px 5px 5px 0;
+		margin: 15px 0;
+		color: #7f0000;
+	}
+	.devicon:before {
+		/*margin: 15px 0;*/
+	}
+	.skill-list {
+		list-style: none;
+		width: 500px;
+		height: 500px;
+		margin: 0 0 0 100px;
+		padding: 25px 0 0 0;
+	}
 	.flux {
 			height: 65px;
 			width: 50px;
 			margin-top: 5px;
 			padding-top: 20px;
 			padding-bottom: 0px;
+	}
+	.links {
+		position: absolute;
+		top: 20%;
+		background: transparent !important;
+		left: 50%;
+		width: 200px !important;
+		height: 200px;
+		border-radius: 25%;
+	}
+	.resume {
+		float: right;
+		display: block;
+		min-height: 100px !important;
+		min-width: 350px !important;
+		padding: 25px;
+		margin: 0;
+		border: 5px double #7f0000 !important;
+		border-radius: 25%;
 	}
 	.cat {
 	  float: left;
