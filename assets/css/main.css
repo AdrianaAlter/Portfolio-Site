@@ -21,6 +21,17 @@
 		display: block;
 	}
 
+	.name {
+		font-family: 'EBGaramondInitialsRegular';
+		font-weight: lighter;
+		color: oldlace;
+	}
+
+	.divider-scroll {
+			width: 170px;
+			margin: 10px auto;
+	}
+
 	a {
 		color: #7f0000;
 	}
@@ -36,11 +47,12 @@
 	}
 
 	.welcome {
-		top: 35%;
-		font-size: 60px;
+		top: 28%;
+		font-size: 20.5px !important;
 		position: absolute;
 		display: inline-block;
-		width: 900px;
+		width: auto;
+		margin: auto;
 		padding: 0 150px;
 	}
 
@@ -58,7 +70,7 @@
 		list-style: none;
 		width: 500px;
 		height: 500px;
-		margin: 0 0 0 100px;
+		margin: 0 0 0 69.33px;
 		padding: 25px 0 0 0;
 	}
 	.flux {
@@ -70,20 +82,22 @@
 	}
 	.links {
 		position: absolute;
-		top: 20%;
+		top: 12.5%;
 		background: transparent !important;
 		left: 50%;
 		width: 200px !important;
 		height: 200px;
 		border-radius: 25%;
+		margin-left: 50px;
 	}
 	.resume {
 		float: right;
 		display: block;
-		min-height: 100px !important;
-		min-width: 350px !important;
+		color: #7f0000 !important;
+		min-height: 80px !important;
+		min-width: 280px !important;
 		padding: 25px;
-		margin: 0;
+		margin: 50px 0;
 		border: 5px double #7f0000 !important;
 		border-radius: 25%;
 	}
@@ -184,7 +198,18 @@
 
 	p, li {
 		font-family: 'Quattrocento Sans', sans-serif;
+		color: oldlace !important;
 	}
+
+	h2, h3 {
+		font-family: 'GFSArtemisia';
+		color: oldlace !important;
+	}
+
+	a {
+		color: oldlace !important;
+	}
+
 	table {
 		border-collapse: collapse;
 		border-spacing: 0;
@@ -2970,15 +2995,25 @@
 			padding: 0;
 		}
 
-			ul.contact > li {
+		.get-in-touch {
+			margin-bottom: 10px;
+		}
+			ul.contact li {
 				padding: 0;
 				margin: 1.5em 0 0 0;
+				width: 200px;
 			}
 
 				ul.contact > li:first-child {
 					margin-top: 0;
 				}
 
+				.icon-item {
+					width: 50px !important;
+					/*height: 100px !important;*/
+					margin-top: 0 !important;
+					display: inline;
+				}
 		ul.menu {
 			list-style: none;
 			padding: 0;
