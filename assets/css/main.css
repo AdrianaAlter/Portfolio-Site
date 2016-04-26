@@ -21,14 +21,16 @@
 		display: block;
 	}
 
-	.name {
-		font-family: 'EBGaramondInitialsRegular';
-		font-weight: lighter;
-		color: oldlace;
+	.name, .projects {
+		font-family: 'EBGaramondInitialsRegular' !important;
+		font-weight: lighter !important;
+		color: oldlace !important;
 	}
 
 	.divider-scroll {
 			width: 170px;
+
+			height: 70px;
 			margin: 10px auto;
 	}
 
@@ -89,18 +91,37 @@
 		height: 200px;
 		border-radius: 25%;
 		margin-left: 50px;
+
 	}
 	.resume {
 		float: right;
+		/*background-image: url("http://cliparts.co/cliparts/8cz/KMG/8czKMGaqi.png") !important;*/
+		/*background-image: url("http://previews.123rf.com/images/summersun/summersun1207/summersun120700003/14507287-vintage-baroque-border-frame-card-background-flower-motif-arabic-retro-pattern-ornate-Stock-Vector.jpg") !important;*/
+		/*background-image: url("http://1.bp.blogspot.com/-ftDIFw43KFs/TfGFmgG6UJI/AAAAAAAAARA/DBvCyyYLJHA/s1600/border+2.png") !important;*/
+		/*background-image: url("http://bjergland.dk/wp-content/uploads/2014/03/flourish-2.png") !important;*/
+		background-repeat: no-repeat;
+		background-position: bottom;
+
+		background-size: cover;
 		display: block;
 		color: #7f0000 !important;
-		min-height: 80px !important;
-		min-width: 280px !important;
-		padding: 25px;
-		margin: 50px 0;
-		border: 5px double #7f0000 !important;
-		border-radius: 25%;
+		min-height: 60px !important;
+		min-width: 220px !important;
+		padding: 25px 0 25px 15px;
+
+		font-size: 16px;
+		margin: 50px 0 !important;
+
 	}
+
+	.resume-scroll {
+		width: 200px;
+		margin: 0px auto;
+		height: 50px;
+		opacity: .9;
+
+	}
+
 	.cat {
 	  float: left;
 	  width: 50px;
@@ -166,13 +187,19 @@
 		color: #8d8d8d;
 	}
 
+	.corner {
+		height: 200px;
+		width: 200px;
+
+	}
+
 	.resume {
 		min-height: 1200px;
 		min-width: 900px;
 		margin: auto;
 		position: absolute;
 		left: 25%;
-		border: 5px double #7f0000;
+		/*border: 5px double #7f0000;*/
 	}
 
 	body {
