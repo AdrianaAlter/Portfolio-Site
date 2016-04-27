@@ -230,7 +230,7 @@
 		color: oldlace !important;
 	}
 
-	h2, h3 {
+	li, h2, h3 {
 		font-family: 'GFSArtemisia';
 		color: oldlace !important;
 	}
@@ -1888,7 +1888,7 @@
 		}
 
 	strong, b {
-		color: #ffffff;
+		color: #FDF5E6;
 		font-weight: bold;
 	}
 
@@ -2127,7 +2127,7 @@
 			-webkit-transition: opacity 0.2s ease, -webkit-transform 0.2s ease;
 			-ms-transition: opacity 0.2s ease, -ms-transform 0.2s ease;
 			transition: opacity 0.2s ease, transform 0.2s ease;
-			background: #ffffff;
+			background: #FDF5E6;
 			border-radius: 3em;
 			content: '';
 			height: 100%;
@@ -2177,7 +2177,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #ffffff;
+			background-color: #FDF5E6;
 			color: #312450 !important;
 		}
 
@@ -2525,7 +2525,7 @@
 		}
 
 	label {
-		color: #ffffff;
+		color: #FDF5E6;
 		font-weight: bold;
 		line-height: 1.5;
 		margin: 0 0 0.7em 0;
@@ -2752,7 +2752,7 @@
 			width: 2.5em;
 			height: 2.5em;
 			display: block;
-			background: #ffffff;
+			background: #FDF5E6;
 			border-radius: 100%;
 			color: #4b0000;
 			text-align: center;
@@ -3383,7 +3383,7 @@
 		}
 
 		table th {
-			color: #ffffff;
+			color: #FDF5E6;
 			font-size: 1em;
 			font-weight: bold;
 			padding: 0 0.75em 0.75em 0.75em;
@@ -3603,7 +3603,7 @@
 
 		#header > .title {
 			border: 0;
-			color: #ffffff;
+			color: #FDF5E6;
 			display: block;
 			font-size: 1.25em;
 			font-weight: bold;
@@ -3648,7 +3648,7 @@
 						}
 
 						#header > nav > ul > li a.active {
-							color: #ffffff;
+							color: #FDF5E6;
 						}
 
 		@media screen and (max-width: 736px) {
