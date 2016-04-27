@@ -112,16 +112,14 @@
 		padding: 25px 0 25px 15px;
 
 		font-size: 16px;
-		margin: 50px 0 !important;
+		margin: 50px 0 0 0 !important;
 
 	}
 
 	.resume-scroll {
 		width: 200px;
-		margin: 0px auto;
-		height: 50px;
-		opacity: .9;
-
+		margin: 10px auto;
+		/*height: 50px;*/
 	}
 
 	.cat {
@@ -2906,7 +2904,9 @@
 						font-style: normal;
 						font-weight: normal;
 						text-transform: none !important;
+						color: #FDF5E6;
 					}
+
 
 					ul.icons li > a .label, ul.icons li > span .label {
 						display: none;
