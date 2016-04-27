@@ -21,10 +21,12 @@
 		display: block;
 	}
 
-	.name, .projects {
+	.name {
 		font-family: 'EBGaramondInitialsRegular' !important;
 		font-weight: lighter !important;
 		color: oldlace !important;
+		font-size: 50px;
+		margin-bottom: 36px;
 	}
 
 	.divider-scroll {
@@ -55,7 +57,7 @@
 		display: inline-block;
 		width: auto;
 		margin: auto;
-		padding: 0 150px;
+		padding: 16px 150px;
 	}
 
 	.devicon {
