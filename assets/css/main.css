@@ -67,9 +67,7 @@
 		margin: 15px 0;
 		color: #7f0000;
 	}
-	.devicon:before {
-		/*margin: 15px 0;*/
-	}
+
 	.skill-list {
 		list-style: none;
 		width: 500px;
@@ -97,10 +95,6 @@
 	}
 	.resume {
 		float: right;
-		/*background-image: url("http://cliparts.co/cliparts/8cz/KMG/8czKMGaqi.png") !important;*/
-		/*background-image: url("http://previews.123rf.com/images/summersun/summersun1207/summersun120700003/14507287-vintage-baroque-border-frame-card-background-flower-motif-arabic-retro-pattern-ornate-Stock-Vector.jpg") !important;*/
-		/*background-image: url("http://1.bp.blogspot.com/-ftDIFw43KFs/TfGFmgG6UJI/AAAAAAAAARA/DBvCyyYLJHA/s1600/border+2.png") !important;*/
-		/*background-image: url("http://bjergland.dk/wp-content/uploads/2014/03/flourish-2.png") !important;*/
 		background-repeat: no-repeat;
 		background-position: bottom;
 
@@ -119,18 +113,17 @@
 	.resume-scroll {
 		width: 200px;
 		margin: 10px auto;
-		/*height: 50px;*/
+	=}
+
+	.ct-pic, .bubbles-pic {
+	  float: left;
+		width: 280px;
+	  display: block;
+		border: 8px inset #7f0000;
 	}
 
-	.cat {
-	  float: left;
-	  width: 50px;
-	  height: 60px;
-	  background-image: asset-url("cat.jpg");
-	  background-size: cover;
-	  background-repeat: no-repeat;
-	  display: block;
-	  border-radius: 50%;
+	.bubbles-pic {
+		height: 300px;
 	}
 
 	.bubble:before {
