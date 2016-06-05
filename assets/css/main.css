@@ -1382,8 +1382,13 @@
 		text-decoration: none;
 	}
 
-	h1, h2, a {
-		font-family: 'Belgika8th';
+	h2, a, p, li {
+		font-family: 'BloggerSansRegular';
+		text-shadow: none !important;
+	}
+
+	h1 {
+		font-family: 'EncodeSansSemiCondensedRegular';
 	}
 
 	h2 {
