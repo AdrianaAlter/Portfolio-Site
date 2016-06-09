@@ -79,6 +79,7 @@
 	.container {
 		margin-left: auto;
 		margin-right: auto;
+		border-radius: 10px;
 	}
 
 	.container.\31 25\25 {
@@ -1496,6 +1497,7 @@
 		margin: auto;
 		background-size: contain;
 		margin-top: 10px;
+		border-radius: 50%;
 	}
 
 	.image {
