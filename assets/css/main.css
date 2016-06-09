@@ -1516,9 +1516,14 @@
 			margin: 0 0 2em 0;
 		}
 
+		.devicon {
+			font-size: 48px !important;
+		}
 		.image.fit {
 			display: block;
 			width: 100%;
+			color: oldlace;
+			font-size: 48px !important;
 		}
 
 		.image.left {
@@ -1856,7 +1861,9 @@
 		}
 
 		.box.style1 {
-			background: #fff;
+			background: #1a1a1a;
+			/*opacity: .8;*/
+			color: oldlace;
 			padding: 3em;
 			height: 630px;
 		}
@@ -1959,7 +1966,8 @@
 				}
 
 		.box.style3 {
-			background: #fff;
+			background: #1a1a1a;
+			color: oldlace;
 			padding: 3em;
 		}
 
