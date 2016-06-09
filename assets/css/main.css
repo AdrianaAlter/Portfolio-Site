@@ -1618,6 +1618,7 @@
 		height: 600px;
 		width: 44%;
 		margin: 0 !important;
+		border-radius: 2%;
 		background: url("./images/CatTrelloPic");
 	}
 
@@ -1626,7 +1627,7 @@
 	}
 	.heraldry-pic {
 		background: url("./images/heraldry.png");
-		background-size: contain;
+		background-position-x: 63%;
 	}
 
 	.rails-pic {
