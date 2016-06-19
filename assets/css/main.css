@@ -29,6 +29,14 @@
 		content: "";
 	}
 
+	.skills-header {
+		color: oldlace;
+	}
+	.gh {
+		display: block;
+		/*float: right;*/
+	}
+
 	.inner {
 		width: 100%;
 	}
@@ -1623,7 +1631,7 @@
 		height: 600px;
 		width: 44%;
 		margin: 0 !important;
-		border-radius: 2%;
+		border-radius: 2% 2% 0 0;
 		background: url("./images/CatTrelloPic");
 	}
 
@@ -1956,7 +1964,7 @@
 						top: 50%;
 						left: 20px;
 						width: calc(100% - 40px);
-						border-bottom: solid 1px #fff;
+						/*border-bottom: solid 1px #fff;*/
 					}
 
 				.box.style2 .inner .image {
