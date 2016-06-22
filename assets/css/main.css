@@ -1486,6 +1486,8 @@
 		margin-bottom: 3em;
 	}
 
+
+
 	section > :last-child,
 	article > :last-child,
 	section:last-child,
@@ -1626,9 +1628,9 @@
 	.ct-pic, .bubbles-pic, .heraldry-pic, .rails-pic {
 		position: absolute;
 		left: 2%;
-		top: 2%;
+		top: 3%;
 		background-repeat: no-repeat !important;
-		height: 600px;
+		height: 420px;
 		width: 44%;
 		margin: 0 !important;
 		border-radius: 2% 2% 0 0;
@@ -1839,6 +1841,7 @@
 		position: relative;
 		margin-top: 9em;
 		margin-bottom: 0;
+		/*height: 400px;*/
 	}
 
 		.box:after {
@@ -1873,7 +1876,8 @@
 			/*opacity: .8;*/
 			color: oldlace;
 			padding: 3em;
-			height: 630px;
+			height: 480px;
+			font-size: 16px;
 		}
 
 			.box.style1 .image {
