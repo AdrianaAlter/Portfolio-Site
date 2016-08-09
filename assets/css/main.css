@@ -2016,7 +2016,7 @@
 	#header {
 		position: relative;
 		/*background-image: url("https://pixabay.com/static/uploads/photo/2016/03/26/05/19/fractal-1280084_960_720.jpg");*/
-		background-image: url("https://pixabay.com/static/uploads/photo/2016/03/26/05/11/fractal-1280073_960_720.jpg");
+		background-image: url("images/background.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
 		color: #fff;
