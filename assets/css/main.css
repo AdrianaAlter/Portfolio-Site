@@ -32,9 +32,9 @@
 	.skills-header {
 		color: oldlace;
 	}
+
 	.gh {
-		display: block;
-		/*float: right;*/
+		text-transform: lowercase;
 	}
 
 	.inner {
@@ -1338,7 +1338,8 @@
 
 	body {
 		background-color: darkred;
-		background-image: url("images/overlay.png");
+		background-image: url("https://www.transparenttextures.com/patterns/maze-black.png");
+		/*background-image: url("images/overlay.png");*/
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
 		background-position: top left, center 0;
@@ -1425,6 +1426,7 @@
 		-ms-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
 		transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
 		color: darkred;
+		padding: 0 8px;
 		/*text-shadow: 0 0 0.5px rgba(53, 184, 143, 0.25);*/
 		text-decoration: none;
 		/*border-bottom: dotted 1px rgba(53, 184, 143, 0.5);*/
@@ -2013,6 +2015,10 @@
 
 	#header {
 		position: relative;
+		/*background-image: url("https://pixabay.com/static/uploads/photo/2016/03/26/05/19/fractal-1280084_960_720.jpg");*/
+		background-image: url("https://pixabay.com/static/uploads/photo/2016/03/26/05/11/fractal-1280073_960_720.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
@@ -2087,7 +2093,7 @@
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
-		background: #1a1a1a url("images/banner.svg") bottom center no-repeat;
+		background: darkred url("images/banner.svg") bottom center no-repeat;
 		padding: 5em 0 5em 0;
 		margin: 0;
 		background-size: 125% auto;
