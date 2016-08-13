@@ -1644,7 +1644,11 @@
 	}
 
 	.bubbles-pic {
-		background: url("./images/bubbles.png");
+		background: url("./images/bubbles.gif");
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 420px;
+		width: 44%;
 	}
 	.heraldry-pic {
 		background: url("./images/heraldry.png");
