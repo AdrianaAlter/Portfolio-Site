@@ -33,6 +33,10 @@
 		color: oldlace;
 	}
 
+	.downcase {
+		text-transform: lowercase;
+	}
+
 	.gh {
 		text-transform: lowercase;
 	}
