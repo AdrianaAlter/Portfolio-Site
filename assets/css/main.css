@@ -1635,7 +1635,7 @@
 		margin-top: 1.5em;
 	}
 
-	.ct-pic, .bubbles-pic, .heraldry-pic, .rails-pic {
+	.ct-pic, .bubbles-pic, .heraldry-pic, .rails-pic, .carousel-pic {
 		position: absolute;
 		left: 2%;
 		top: 3%;
@@ -1657,6 +1657,12 @@
 	.heraldry-pic {
 		background: url("./images/heraldry.png");
 		background-position-x: 63%;
+	}
+
+	.carousel-pic {
+		background: url("./images/carousel.png");
+		background-repeat: no-repeat;
+		background-position-x: 50%;
 	}
 
 	.rails-pic {
