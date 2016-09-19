@@ -1340,7 +1340,7 @@
 
 /* Basic */
 
-	body, body.is-scroll, body.is-loading {
+	body {
 		background-color: darkred;
 		background-image: url("https://www.transparenttextures.com/patterns/white-diamond-dark.png");
 		background-repeat: repeat, no-repeat;
@@ -1358,11 +1358,27 @@
 	}
 
 		body.is-scroll {
+			background-color: darkred;
+			background-image: url("https://www.transparenttextures.com/patterns/white-diamond-dark.png");
+			background-repeat: repeat, no-repeat;
+			background-size: auto, cover;
+			background-position: top left, center 0;
+			background-attachment: fixed, fixed;
 			background-attachment: scroll, scroll;
 			background-size: auto, 100% auto;
 		}
 
+		body.is-scroll article {
+			overflow-y: scroll;
+			overflow-x: auto;
+		}
 		body.is-loading * {
+			background-color: darkred;
+			background-image: url("https://www.transparenttextures.com/patterns/white-diamond-dark.png");
+			background-repeat: repeat, no-repeat;
+			background-size: auto, cover;
+			background-position: top left, center 0;
+			background-attachment: fixed, fixed;
 			-moz-transition: none !important;
 			-webkit-transition: none !important;
 			-ms-transition: none !important;
@@ -1634,7 +1650,7 @@
 		margin-top: 1.5em;
 	}
 
-	.ct-pic, .bubbles-pic, .heraldry-pic, .rails-pic, .carousel-pic {
+	.ct-pic, .bubbles-pic, .heraldry-pic, .rails-pic, .carousel-pic, .ps-pic {
 		position: absolute;
 		left: 2%;
 		top: 3%;
@@ -1662,6 +1678,21 @@
 		background: url("./images/carousel.png");
 		background-repeat: no-repeat;
 		background-position-x: 50%;
+	}
+	.ps-pic {
+		background-repeat: no-repeat;
+		background-size: contain !important;
+		/*animation: psshift 12s infinite;*/
+		background: url("./images/ps1.png");
+	}
+
+	@keyframes psshift {
+		0%, 100% {
+			background: url("./images/ps1.png");
+		}
+		50% {
+			background: url("./images/ps2.png");
+		}
 	}
 
 	.rails-pic {
