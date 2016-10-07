@@ -1650,7 +1650,7 @@
 		margin-top: 1.5em;
 	}
 
-	.ct-pic, .bubbles-pic, .heraldry-pic, .rails-pic, .carousel-pic, .ps-pic {
+	.ct-pic, .bubbles-pic, .heraldry-pic, .rails-pic, .carousel-pic, .ps-pic, .dragon-pic {
 		position: absolute;
 		left: 2%;
 		top: 3%;
@@ -1684,6 +1684,13 @@
 		background-size: contain !important;
 		/*animation: psshift 12s infinite;*/
 		background: url("./images/ps1.png");
+	}
+
+	.dragon-pic {
+		background: url("./images/dragon2.png");
+		background-size: contain;
+		/*background-position: center;*/
+		background-repeat: no-repeat;
 	}
 
 	@keyframes psshift {
