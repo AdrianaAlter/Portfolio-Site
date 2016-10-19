@@ -5097,7 +5097,7 @@
 		}
 
 		body.is-scroll article {
-			overflow-y: scroll;
+			overflow-y: hidden;
 			overflow-x: auto;
 		}
 		body.is-loading * {
@@ -5154,8 +5154,6 @@
 
 	h2 {
 		font-size: 1.25em;
-		/*letter-spacing: 8px;*/
-		color: darkred;
 	}
 
 	h3 {
@@ -5236,7 +5234,7 @@
 /* Sections/Article */
 
 	section, article {
-		margin-bottom: 3em;
+		margin-bottom: 1em;
 	}
 
 
@@ -5378,7 +5376,7 @@
 		margin-top: 1.5em;
 	}
 
-	.ct-pic, .bubbles-pic, .heraldry-pic, .rails-pic, .carousel-pic, .ps-pic {
+	.ct-pic, .bubbles-pic, .heraldry-pic, .rails-pic, .carousel-pic, .ps-pic, .dragon-pic, .sonata-pic {
 		position: absolute;
 		left: 2%;
 		top: 3%;
@@ -5412,6 +5410,20 @@
 		background-size: contain !important;
 		/*animation: psshift 12s infinite;*/
 		background: url("./images/ps1.png");
+	}
+
+	.dragon-pic {
+		background: url("./images/dragongif.gif");
+		background-size: contain;
+		/*background-position: center;*/
+		background-repeat: no-repeat;
+	}
+
+	.sonata-pic {
+		background: url("./images/sonata.png");
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
 	}
 
 	@keyframes psshift {
@@ -5585,6 +5597,11 @@
 			color: darkred;
 			background: #fff;
 			box-shadow: inset 0 0 0 1px #fff;
+			width: 180px;
+			padding: 16px 0;
+		}
+		#banner1 > .button:first-child {
+			margin-bottom: 2%;
 		}
 				input[type="button"].style2:hover,
 			input[type="submit"].style2:hover,
@@ -5618,7 +5635,7 @@
 
 	.box {
 		position: relative;
-		margin-top: 9em;
+		margin-top: 6em;
 		margin-bottom: 0;
 		/*height: 400px;*/
 	}
