@@ -15,7 +15,6 @@
 		border: 0;
 		font-size: 100%;
 		font: inherit;
-
 		vertical-align: baseline;
 	}
 
@@ -54,6 +53,7 @@
 
 	body {
 		line-height: 1;
+		width: 100%;
 	}
 
 	ol, ul {
@@ -1678,7 +1678,7 @@
 		background-position-x: 50%;
 	}
 	.ps-pic {
-		background-repeat: no-repeat;
+		background-repeat: no-repeat !important;
 		background-size: contain !important;
 		background: url("./images/ps1.png");
 	}
