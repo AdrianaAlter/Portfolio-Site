@@ -1648,7 +1648,7 @@
 		margin-top: 1.5em;
 	}
 
-	.ct-pic, .bubbles-pic, .heraldry-pic, .rails-pic, .carousel-pic, .ps-pic, .dragon-pic, .sonata-pic {
+	.ct-pic, .bubbles-pic, .heraldry-pic, .rails-pic, .carousel-pic, .ps-pic, .dragon-pic, .sonata-pic, .tiger-pic {
 		position: absolute;
 		left: 2%;
 		top: 3%;
@@ -1680,14 +1680,12 @@
 	.ps-pic {
 		background-repeat: no-repeat;
 		background-size: contain !important;
-		/*animation: psshift 12s infinite;*/
 		background: url("./images/ps1.png");
 	}
 
 	.dragon-pic {
 		background: url("./images/dragongif.gif");
 		background-size: contain;
-		/*background-position: center;*/
 		background-repeat: no-repeat;
 	}
 
@@ -1698,22 +1696,17 @@
 		background-repeat: no-repeat;
 	}
 
-	@keyframes psshift {
-		0%, 100% {
-			background: url("./images/ps1.png");
-		}
-		50% {
-			background: url("./images/ps2.png");
-		}
-	}
-
 	.rails-pic {
 		top: 5%;
 		background-repeat: no-repeat;
 		background-size: cover;
-		/*background-position-y: 100%;*/
 		background-image: url("./images/rails.png");
+	}
 
+	.tiger-pic {
+		background-image: url("./images/tiger1.png");
+		background-size: contain;
+		background-repeat: no-repeat;
 	}
 
 /* Form */
