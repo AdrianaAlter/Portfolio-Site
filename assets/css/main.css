@@ -23,8 +23,11 @@
 		font-size: 100%;
 		font: inherit;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
+>>>>>>> gh-pages
+=======
 >>>>>>> gh-pages
 		vertical-align: baseline;
 	}
@@ -168,6 +171,7 @@
 
 	body {
 		line-height: 1;
+		width: 100%;
 	}
 
 	ol, ul {
@@ -5406,14 +5410,14 @@
 		background-position-x: 50%;
 	}
 	.ps-pic {
-		background-repeat: no-repeat;
-		background-size: contain !important;
+		background-repeat: no-repeat !important;
+		background-size: cover !important;
 		background: url("./images/ps1.png");
 	}
 
 	.dragon-pic {
 		background: url("./images/dragongif.gif");
-		background-size: contain;
+		background-size: cover !important;
 		background-repeat: no-repeat;
 	}
 
@@ -5432,8 +5436,8 @@
 	}
 
 	.tiger-pic {
-		background-image: url("./images/tiger1.png");
-		background-size: contain;
+		background-image: url("./images/tiger-vert.png");
+		background-size: cover;
 		background-repeat: no-repeat;
 	}
 
@@ -5563,7 +5567,7 @@
 		display: inline-block;
 		border: 0;
 		background: #35b88f;
-		color: #fff;
+		color: oldlace;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		cursor: pointer;
 		text-decoration: none;
@@ -5588,10 +5592,13 @@
 		button.style2,
 		.button.style2 {
 			color: darkred;
-			background: #fff;
-			box-shadow: inset 0 0 0 1px #fff;
+			background-color: oldlace;
+			background-image: url("https://www.transparenttextures.com/patterns/white-diamond-dark.png");
+			box-shadow: inset 0 0 0 1px oldlace;
+			background-size: contain;
 			width: 180px;
 			padding: 16px 0;
+			opacity: 1;
 		}
 		#banner1 > .button:first-child {
 			margin-bottom: 2%;
@@ -5602,7 +5609,7 @@
 			button.style2:hover,
 			.button.style2:hover {
 				background: rgba(255, 255, 255, 0.1);
-				color: #fff;
+				color: oldlace;
 				text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 			}
 
@@ -5640,7 +5647,7 @@
 			top: -9em;
 			left: 50%;
 			height: 9em;
-			border-left: solid 1px #fff;
+			border-left: solid 1px oldlace;
 		}
 
 		.box:before {
@@ -5722,7 +5729,7 @@
 
 			.box.style2 header {
 				display: inline-block;
-				background: #fff;
+				background: oldlace;
 				padding: 2em 3em 2em 3em;
 				margin: 0;
 			}
@@ -5743,7 +5750,7 @@
 					top: 0;
 					left: 50%;
 					height: 100%;
-					border-left: solid 1px #fff;
+					border-left: solid 1px oldlace;
 				}
 
 				.box.style2 .inner .row {
@@ -5757,7 +5764,7 @@
 						top: 50%;
 						left: 20px;
 						width: calc(100% - 40px);
-						/*border-bottom: solid 1px #fff;*/
+						/*border-bottom: solid 1px oldlace;*/
 					}
 
 				.box.style2 .inner .image {
@@ -5806,7 +5813,7 @@
 		background-image: url("./images/background.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
-		color: #fff;
+		color: oldlace;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
 		margin: 0;
@@ -5857,7 +5864,7 @@
 				bottom: -9em;
 				left: 50%;
 				height: 9em;
-				border-left: solid 1px #fff;
+				border-left: solid 1px oldlace;
 			}
 
 			#header footer:before {
@@ -5877,7 +5884,7 @@
 
 	.banner {
 		position: relative;
-		color: #fff;
+		color: oldlace;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
 		background: darkred url("images/banner.svg") bottom center no-repeat;
@@ -5896,7 +5903,7 @@
 			width: 550px;
 			background-repeat: no-repeat;
 			margin: auto;
-			background-image: url("./images/resume.png");
+			background-image: url("./images/aa_resume.pdf");
 		}
 
 		.banner header {
@@ -5930,7 +5937,7 @@
 
 	#footer {
 		position: relative;
-		color: #fff;
+		color: oldlace;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
 		margin: 4.5em 0 0 0;
@@ -5943,11 +5950,11 @@
 			top: -4.5em;
 			left: 50%;
 			height: 4.5em;
-			border-left: solid 1px #fff;
+			border-left: solid 1px oldlace;
 		}
 
 		#footer a {
-			color: #fff;
+			color: oldlace;
 			text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
@@ -5961,7 +5968,7 @@
 		#footer .icons {
 			padding: 0.75em 2em 0.75em 2em;
 			border-radius: 3em;
-			border: solid 1px #fff;
+			border: solid 1px oldlace;
 			display: inline-block;
 			margin: 0 0 3em 0;
 		}
@@ -5978,7 +5985,7 @@
 		-webkit-box-sizing: content-box;
 		-ms-box-sizing: content-box;
 		box-sizing: content-box;
-		background: #fff;
+		background: oldlace;
 		padding-bottom: 3em;
 	}
 
@@ -5996,7 +6003,7 @@
 			position: absolute;
 			bottom: 0;
 			left: 0;
-			background: #fff;
+			background: oldlace;
 			width: 100%;
 			height: 3em;
 			line-height: 3em;
@@ -6093,9 +6100,9 @@
 				width: 40px;
 				height: 40px;
 				border-radius: 100%;
-				box-shadow: inset 0 0 0 1px #fff;
+				box-shadow: inset 0 0 0 1px oldlace;
 				background: rgba(255, 255, 255, 0.1) url("images/poptrox-closer.svg") center center;
-				color: #fff;
+				color: oldlace;
 			}
 
 		.poptrox-popup:hover .closer {
