@@ -5380,7 +5380,7 @@
 		margin-top: 1.5em;
 	}
 
-	.ct-pic, .bubbles-pic, .heraldry-pic, .rails-pic, .carousel-pic, .ps-pic, .dragon-pic, .sonata-pic, .tiger-pic {
+	.ct-pic, .bubbles-pic, .heraldry-pic, .rails-pic, .carousel-pic, .ps-pic, .dragon-pic, .sonata-pic, .tiger-pic, .minesweeper-pic {
 		position: absolute;
 		left: 2%;
 		top: 3%;
@@ -5416,7 +5416,7 @@
 	}
 
 	.dragon-pic {
-		background: url("./images/dragongif.gif");
+		background: url("./images/dragon-pic-2.png");
 		background-size: cover !important;
 		background-repeat: no-repeat;
 	}
@@ -5437,6 +5437,12 @@
 
 	.tiger-pic {
 		background-image: url("./images/tiger-vert.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	.minesweeper-pic {
+		background-image: url("./images/minesweeper.png");
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
