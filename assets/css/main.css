@@ -1648,7 +1648,7 @@
 		margin-top: 1.5em;
 	}
 
-	.ct-pic, .bubbles-pic, .heraldry-pic, .rails-pic, .carousel-pic, .ps-pic, .dragon-pic, .sonata-pic, .tiger-pic, .minesweeper-pic {
+	.ct-pic, .bubbles-pic, .heraldry-pic, .rails-pic, .carousel-pic, .ps-pic, .dragon-pic, .sonata-pic, .tiger-pic, .minesweeper-pic, .wb-pic {
 		position: absolute;
 		left: 2%;
 		top: 3%;
@@ -1712,6 +1712,12 @@
 	.minesweeper-pic {
 		background-image: url("./images/minesweeper.png");
 		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.wb-pic {
+		background-image: url("./images/wb.png");
+		background-size: cover;
+		background-position: center;
 		background-repeat: no-repeat;
 	}
 
