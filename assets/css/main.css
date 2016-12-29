@@ -1689,14 +1689,12 @@
 		background-size: cover !important;
 		background-repeat: no-repeat;
 	}
-
 	.sonata-pic {
 		background: url("./images/sonata.png");
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
 	}
-
 	.rails-pic {
 		top: 5%;
 		background-repeat: no-repeat;
