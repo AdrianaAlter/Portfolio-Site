@@ -1648,7 +1648,7 @@
 		margin-top: 1.5em;
 	}
 
-	.ct-pic, .bubbles-pic, .heraldry-pic, .rails-pic, .carousel-pic, .ps-pic, .dragon-pic, .sonata-pic, .tiger-pic, .minesweeper-pic, .wb-pic {
+	.ct-pic, .bubbles-pic, .heraldry-pic, .rails-pic, .carousel-pic, .ps-pic, .crypt-pic, .dragon-pic, .sonata-pic, .tiger-pic, .minesweeper-pic, .wb-pic {
 		position: absolute;
 		left: 2%;
 		top: 3%;
@@ -1659,7 +1659,6 @@
 		border-radius: 2%;
 		background: url("./images/CatTrelloPic");
 	}
-
 	.bubbles-pic {
 		background: url("./images/bubbles.gif");
 		background-repeat: no-repeat;
@@ -1671,7 +1670,6 @@
 		background: url("./images/heraldry.png");
 		background-position-x: 63%;
 	}
-
 	.carousel-pic {
 		background: url("./images/carousel.png");
 		background-repeat: no-repeat;
@@ -1682,7 +1680,10 @@
 		background-size: cover !important;
 		background: url("./images/ps1.png");
 	}
-
+	.crypt-pic {
+		background-repeat: no-repeat !important;
+		background: url("./images/cryptograms.png");
+	}
 	.dragon-pic {
 		background: url("./images/dragon-pic-2.png");
 		background-size: cover !important;
