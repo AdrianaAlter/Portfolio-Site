@@ -48,97 +48,168 @@
 
 		<!-- Feature 1 -->
 		<div id="projects">
-			<article id="first" class="container box style1 right group">
-					<a href="http://www.cattrello.press/#/login?_k=o5pn3q"><div class="ct-pic"></div></a>
+			<nav class="project-nav">
+				<a href="#fullstack" class="button style2 scrolly sel">Full Stack Sites</a>
+				<a href="#apps" class="button style2 scrolly">Apps</a>
+				<a href="#games" class="button style2 scrolly">Games</a>
+				<a href="#other" class="button style2 scrolly">Other</a>
+			</nav>
+			<div id="fullstack">
+				<article id="first" class="container box style1 right group">
+						<a href="http://www.cattrello.press/#/login?_k=o5pn3q"><div class="ct-pic"></div></a>
+						<div class="text-container group">
+							<header>
+								<h2>
+									<a href="http://www.cattrello.press/#/login?_k=o5pn3q">CatTrello</a>&#9830;<a class="gh" href="https://github.com/AdrianaAlter/CatTrello-Project">github</a>
+								</h2>
+							</header>
+							<p>Single-page project management app inspired by Trello and built using Ruby on Rails and React.js.</p>
+							<ul>
+								<li>RESTful Rails API communicates with React/Flux frontend via AJAX, for access to backend CRUD functionality </li>
+								<li>Search bar builds indexed search tables to efficiently generate user-specific suggestions</li>
+								<li>Improves response time by optimizing SQL queries on the backend</li>
+							</ul>
+						</div>
+				</article>
+				<article class="container box style1 left">
+					<a href="https://writersblockapp.herokuapp.com/"><div class="wb-pic"></div></a>
 					<div class="text-container group">
 						<header>
 							<h2>
-								<a href="http://www.cattrello.press/#/login?_k=o5pn3q">CatTrello</a>&#9830;<a class="gh" href="https://github.com/AdrianaAlter/CatTrello-Project">github</a>
+								<a href="https://writersblockapp.herokuapp.com/">Writer's Block</a>&#9830;<a class="gh" href="https://github.com/AdrianaAlter/WritersBlock">github</a>
 							</h2>
 						</header>
-						<p>Single-page project management app inspired by Trello and built using Ruby on Rails and React.js.</p>
+						<p>Rails/React productivity app</p>
 						<ul>
-							<li>RESTful Rails API communicates with React/Flux frontend via AJAX, for access to backend CRUD functionality </li>
-							<li>Search bar builds indexed search tables to efficiently generate user-specific suggestions</li>
-							<li>Improves response time by optimizing SQL queries on the backend</li>
+							<li>App enables users to earn points and receive prizes by working on writing projects</li>
+							<li>React/Flux frontend automatically updates word count, and RESTful Rails API uses the PostgreSQL hstore extension to keep track of points, purchases, and saved settings</li>
 						</ul>
-				</div>
-			</article>
-			<article class="container box style1 left">
-				<a href="http://adrianaalter.github.io/Bubbles/"><div class="bubbles-pic"></div></a>
-				<div class="text-container group">
-					<header>
-						<h2>
-							<a href="http://adrianaalter.github.io/Bubbles/">Bubbles</a>&#9830;<a class="gh" href="https://github.com/AdrianaAlter/Bubbles">github</a>
-						</h2>
-					</header>
-					<p>Animation-based demo built on pure CSS</p>
-					<ul>
-						<li>Integrates multiple CSS3 keyframe methods to create realistic, interactive animation</li>
-						<li>Uses pseudo elements and radial gradients with layered opacity to generate 3D visual effect</li>
-					</ul>
-				</div>
-			</article>
-			<article class="container box style1 left">
-				<a href="https://writersblockapp.herokuapp.com/"><div class="wb-pic"></div></a>
-				<div class="text-container group">
-					<header>
-						<h2>
-							<a href="https://writersblockapp.herokuapp.com/">Writer's Block</a>&#9830;<a class="gh" href="https://github.com/AdrianaAlter/WritersBlock">github</a>
-						</h2>
-					</header>
-					<p>Rails/React productivity app</p>
-					<ul>
-						<li>App enables users to earn points and receive prizes by working on writing projects</li>
-						<li>React/Flux frontend automatically updates word count, and RESTful Rails API uses the PostgreSQL hstore extension to keep track of points, purchases, and saved settings</li>
-					</ul>
-				</div>
-			</article>
-			<article class="container box style1 left">
-				<a href="http://adrianaalter.github.io/Cryptograms/"><div class="crypt-pic"></div></a>
-				<div class="text-container group">
-					<header>
-						<h2>
-							<a href="http://adrianaalter.github.io/Cryptograms/">Cryptograms</a>&#9830;<a class="gh" href="https://github.com/AdrianaAlter/Cryptograms">github</a>
-						</h2>
-					</header>
-					<p>Browser puzzle game in JavaScript</p>
-					<ul>
-						<li>Uses AJAX calls to fetch random quotes, and the Underscore.js library to encrypt them</li>
-						<li>Interface is styled with Sass, and crosses off letters for smooth user experience</li>
-					</ul>
-				</div>
-			</article>
-			<article class="container box style1 left">
-				<a href="http://adrianaalter.github.io/PegSolitaire/"><div class="ps-pic"></div></a>
-				<div class="text-container group">
-					<header>
-						<h2>
-							<a href="http://adrianaalter.github.io/PegSolitaire/">Peg Solitaire</a>&#9830;<a class="gh" href="https://github.com/AdrianaAlter/PegSolitaire">github</a>
-						</h2>
-					</header>
-					<p>Browser game in vanilla JavaScript</p>
-					<ul>
-						<li>Uses HTML5 drag and drop API for smooth user experience</li>
-						<li>Features include undo and reset functionality, and two different game boards</li>
-					</ul>
-				</div>
-			</article>
-			<article class="container box style1 left">
-				<a href="http://adrianaalter.github.io/MinesweeperGame/"><div class="minesweeper-pic"></div></a>
-				<div class="text-container group">
-					<header>
-						<h2>
-							<a href="http://adrianaalter.github.io/MinesweeperGame/">Minesweeper</a>&#9830;<a class="gh" href="https://github.com/AdrianaAlter/MinesweeperGame">github</a>
-						</h2>
-					</header>
-					<p>Browser game in vanilla JavaScript</p>
-					<ul>
-						<li>Implements custom algorithms for randomization, recursive searching, and toggling classes</li>
-						<li>Interface uses Sass stylesheets and the HTML5 audio element for smooth user experience</li>
-					</ul>
-				</div>
-			</article>
+					</div>
+				</article>
+			</div>
+				<nav class="project-nav">
+					<a href="#fullstack" class="button style2 scrolly">Full Stack Sites</a>
+					<a href="#apps" class="button style2 scrolly sel">Apps</a>
+					<a href="#games" class="button style2 scrolly">Games</a>
+					<a href="#other" class="button style2 scrolly">Other</a>
+				</nav>
+			<div id="apps">
+				<article class="container box style1 left">
+					<a href="http://adrianaalter.github.io/Heraldry/"><div class="heraldry-pic"></div></a>
+					<div class="text-container group">
+						<header>
+							<h2>
+								<a href="http://adrianaalter.github.io/Heraldry/">Heraldry</a>&#9830;<a class="gh" href="https://github.com/AdrianaAlter/Heraldry">github</a>
+							</h2>
+						</header>
+						<p>Interactive design app built in JavaScript, React.js, HTML, and CSS</p>
+						<ul>
+							<li>Uses React.js for full customizability, resulting in billions of possible results</li>
+							<li>Menu implements hand-rolled carousel component</li>
+							<li>Custom randomization algorithm enhances user experience</li>
+						</ul>
+					</div>
+				</article>
+				<article class="container box style1 left">
+					<a href="http://adrianaalter.github.io/Carousel/"><div class="carousel-pic"></div></a>
+					<div class="text-container group">
+						<header>
+							<h2>
+								<a href="http://adrianaalter.github.io/Carousel/">Carousel</a>&#9830;<a class="gh" href="https://github.com/AdrianaAlter/Carousel">github</a>
+							</h2>
+						</header>
+						<p>Hand-rolled React.js component for user interface</p>
+						<ul>
+							<li>Code for reusable, customizable component converts any array into a carousel, complete with navigation and pagination features</li>
+							<li>Original algorithm enables users to cycle through list items</li>
+							<li>Style sheet uses CSS3 transform property to create 3D effect</li>
+						</ul>
+					</div>
+				</article>
+				<article class="container box style1 left">
+					<a href="http://adrianaalter.github.io/Sonata/"><div class="sonata-pic"></div></a>
+					<div class="text-container group">
+						<header>
+							<h2>
+								<a href="http://adrianaalter.github.io/Sonata/">Sonata</a>&#9830;<a class="gh" href="https://github.com/AdrianaAlter/Sonata">github</a>
+							</h2>
+						</header>
+						<p>Interactive 5-octave piano app</p>
+						<ul>
+							<li>Piano keys are drawn in pure CSS, using pseudo-content, outset borders, box-shadows, and transitions</li>
+							<li>Uses React.js, Flux architecture, and the Tones.js web audio framework</li>
+						</ul>
+					</div>
+				</article>
+				<article class="container box style1 left">
+					<a href="http://adrianaalter.github.io/TigerCast/"><div class="tiger-pic"></div></a>
+					<div class="text-container group">
+						<header>
+							<h2>
+								<a href="http://adrianaalter.github.io/TigerCast/">TigerCast</a>&#9830;<a class="gh" href="https://github.com/AdrianaAlter/TigerCast">github</a>
+							</h2>
+						</header>
+						<p>Weather app</p>
+						<ul>
+							<li>Uses jQuery AJAX requests to pull data from the Weather Underground API</li>
+							<li>Implements CSS3 media queries, and the HTML5 viewport meta tag, for full responsiveness</li>
+						</ul>
+					</div>
+				</article>
+			</div>
+			<nav class="project-nav">
+				<a href="#fullstack" class="button style2 scrolly">Full Stack Sites</a>
+				<a href="#apps" class="button style2 scrolly">Apps</a>
+				<a href="#games" class="button style2 scrolly sel">Games</a>
+				<a href="#other" class="button style2 scrolly">Other</a>
+			</nav>
+			<div id="games">
+				<article class="container box style1 left">
+					<a href="http://adrianaalter.github.io/Cryptograms/"><div class="crypt-pic"></div></a>
+					<div class="text-container group">
+						<header>
+							<h2>
+								<a href="http://adrianaalter.github.io/Cryptograms/">Cryptograms</a>&#9830;<a class="gh" href="https://github.com/AdrianaAlter/Cryptograms">github</a>
+							</h2>
+						</header>
+						<p>Browser puzzle game in JavaScript</p>
+						<ul>
+							<li>Uses AJAX calls to fetch random quotes, and the Underscore.js library to encrypt them</li>
+							<li>Interface is styled with Sass, and crosses off letters for smooth user experience</li>
+						</ul>
+					</div>
+				</article>
+				<article class="container box style1 left">
+					<a href="http://adrianaalter.github.io/PegSolitaire/"><div class="ps-pic"></div></a>
+					<div class="text-container group">
+						<header>
+							<h2>
+								<a href="http://adrianaalter.github.io/PegSolitaire/">Peg Solitaire</a>&#9830;<a class="gh" href="https://github.com/AdrianaAlter/PegSolitaire">github</a>
+							</h2>
+						</header>
+						<p>Browser game in vanilla JavaScript</p>
+						<ul>
+							<li>Uses HTML5 drag and drop API for smooth user experience</li>
+							<li>Features include undo and reset functionality, and two different game boards</li>
+						</ul>
+					</div>
+				</article>
+				<article class="container box style1 left">
+					<a href="http://adrianaalter.github.io/MinesweeperGame/"><div class="minesweeper-pic"></div></a>
+					<div class="text-container group">
+						<header>
+							<h2>
+								<a href="http://adrianaalter.github.io/MinesweeperGame/">Minesweeper</a>&#9830;<a class="gh" href="https://github.com/AdrianaAlter/MinesweeperGame">github</a>
+							</h2>
+						</header>
+						<p>Browser game in vanilla JavaScript</p>
+						<ul>
+							<li>Implements custom algorithms for randomization, recursive searching, and toggling classes</li>
+							<li>Interface uses Sass stylesheets and the HTML5 audio element for smooth user experience</li>
+						</ul>
+					</div>
+				</article>
+			</div>
 			<article class="container box style1 left">
 				<a href="http://adrianaalter.github.io/DragonBribe/"><div class="dragon-pic"></div></a>
 				<div class="text-container group">
@@ -152,53 +223,6 @@
 						<li>Uses the HTML5 audio element to incorporate sound effects and a mute button</li>
 						<li>Play functionality implements the JavaScript setInterval() function, and a custom randomization algorithm, to generate jewels with random starting positions, speeds, and backgrounds.</li>
 						<li>Graphics design uses photo editing software to layer and alter multiple backgrounds and visual elements</li>
-					</ul>
-				</div>
-			</article>
-			<article class="container box style1 left">
-				<a href="http://adrianaalter.github.io/Heraldry/"><div class="heraldry-pic"></div></a>
-				<div class="text-container group">
-					<header>
-						<h2>
-							<a href="http://adrianaalter.github.io/Heraldry/">Heraldry</a>&#9830;<a class="gh" href="https://github.com/AdrianaAlter/Heraldry">github</a>
-						</h2>
-					</header>
-					<p>Interactive design app built in JavaScript, React.js, HTML, and CSS</p>
-					<ul>
-						<li>Uses React.js for full customizability, resulting in billions of possible results</li>
-						<li>Menu implements hand-rolled carousel component</li>
-						<li>Custom randomization algorithm enhances user experience</li>
-					</ul>
-				</div>
-			</article>
-			<article class="container box style1 left">
-				<a href="http://adrianaalter.github.io/Carousel/"><div class="carousel-pic"></div></a>
-				<div class="text-container group">
-					<header>
-						<h2>
-							<a href="http://adrianaalter.github.io/Carousel/">Carousel</a>&#9830;<a class="gh" href="https://github.com/AdrianaAlter/Carousel">github</a>
-						</h2>
-					</header>
-					<p>Hand-rolled React.js component for user interface</p>
-					<ul>
-						<li>Code for reusable, customizable component converts any array into a carousel, complete with navigation and pagination features</li>
-						<li>Original algorithm enables users to cycle through list items</li>
-						<li>Style sheet uses CSS3 transform property to create 3D effect</li>
-					</ul>
-				</div>
-			</article>
-			<article class="container box style1 left">
-				<a href="http://adrianaalter.github.io/Sonata/"><div class="sonata-pic"></div></a>
-				<div class="text-container group">
-					<header>
-						<h2>
-							<a href="http://adrianaalter.github.io/Sonata/">Sonata</a>&#9830;<a class="gh" href="https://github.com/AdrianaAlter/Sonata">github</a>
-						</h2>
-					</header>
-					<p>Interactive 5-octave piano app</p>
-					<ul>
-						<li>Piano keys are drawn in pure CSS, using pseudo-content, outset borders, box-shadows, and transitions</li>
-						<li>Uses React.js, Flux architecture, and the Tones.js web audio framework</li>
 					</ul>
 				</div>
 			</article>
@@ -217,18 +241,26 @@
 					</ul>
 				</div>
 			</article>
+		</div>
+		<nav class="project-nav">
+			<a href="#fullstack" class="button style2 scrolly">Full Stack Sites</a>
+			<a href="#apps" class="button style2 scrolly">Apps</a>
+			<a href="#games" class="button style2 scrolly">Games</a>
+			<a href="#other" class="button style2 scrolly sel">Other</a>
+		</nav>
+		<div id="other">
 			<article class="container box style1 left">
-				<a href="http://adrianaalter.github.io/TigerCast/"><div class="tiger-pic"></div></a>
+				<a href="http://adrianaalter.github.io/Bubbles/"><div class="bubbles-pic"></div></a>
 				<div class="text-container group">
 					<header>
 						<h2>
-							<a href="http://adrianaalter.github.io/TigerCast/">TigerCast</a>&#9830;<a class="gh" href="https://github.com/AdrianaAlter/TigerCast">github</a>
+							<a href="http://adrianaalter.github.io/Bubbles/">Bubbles</a>&#9830;<a class="gh" href="https://github.com/AdrianaAlter/Bubbles">github</a>
 						</h2>
 					</header>
-					<p>Weather app</p>
+					<p>Animation-based demo built on pure CSS</p>
 					<ul>
-						<li>Uses jQuery AJAX requests to pull data from the Weather Underground API</li>
-						<li>Implements CSS3 media queries, and the HTML5 viewport meta tag, for full responsiveness</li>
+						<li>Integrates multiple CSS3 keyframe methods to create realistic, interactive animation</li>
+						<li>Uses pseudo elements and radial gradients with layered opacity to generate 3D visual effect</li>
 					</ul>
 				</div>
 			</article>
@@ -251,7 +283,7 @@
 			</article>
 		</div>
 		<article class="container box style2">
-			<h1 class="skills-header">Skills</h1>
+			<h1 class="caption">Skills</h1>
 			<div id="skills" class="inner gallery">
 				<div class="row 0%">
 					<div class="3u 12u(mobile)"><i class="devicon-ruby-plain-wordmark image fit"></i></div>

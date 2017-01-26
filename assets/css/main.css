@@ -28,8 +28,31 @@
 		content: "";
 	}
 
-	.skills-header {
+	.project-nav {
+		margin: auto;
+		display: flex;
+		justify-content: center;
+		padding: .5em 0;
+		background: darkred url("images/banner.svg") center;
+		width: 60.7%;
+	}
+
+	.project-nav a {
+		margin: 1vh 1vw;
+	}
+
+	.sel {
+		background-color: darkred !important;
+		color: oldlace !important;
+	}
+
+	.box:first-child {
+		margin-top: 0;
+	}
+
+	.caption {
 		color: oldlace;
+		margin: auto;
 	}
 
 	.downcase {
@@ -1710,7 +1733,6 @@
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
-
 	.minesweeper-pic {
 		background-image: url("./images/minesweeper.png");
 		background-size: cover;
@@ -1917,9 +1939,8 @@
 
 	.box {
 		position: relative;
-		margin-top: 6em;
+		margin-top: 4em;
 		margin-bottom: 0;
-		/*height: 400px;*/
 	}
 
 		.box:after {
@@ -2091,7 +2112,6 @@
 
 	#header {
 		position: relative;
-		/*background-image: url("https://pixabay.com/static/uploads/photo/2016/03/26/05/19/fractal-1280084_960_720.jpg");*/
 		background-image: url("./images/background.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
