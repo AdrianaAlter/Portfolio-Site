@@ -1648,7 +1648,7 @@
 		margin-top: 1.5em;
 	}
 
-	.ct-pic, .bubbles-pic, .heraldry-pic, .rails-pic, .carousel-pic, .ps-pic, .crypt-pic, .dragon-pic, .sonata-pic, .tiger-pic, .minesweeper-pic, .wb-pic {
+	.ct-pic, .bubbles-pic, .heraldry-pic, .rails-pic, .carousel-pic, .ps-pic, .crypt-pic, .dragon-pic, .sonata-pic, .memory-pic, .tiger-pic, .minesweeper-pic, .wb-pic {
 		position: absolute;
 		left: 2%;
 		top: 3%;
@@ -1701,7 +1701,10 @@
 		background-size: cover;
 		background-image: url("./images/rails.png");
 	}
-
+	.memory-pic {
+		background-repeat: no-repeat;
+		background-image: url("./images/memory.png");
+	}
 	.tiger-pic {
 		background-image: url("./images/tiger-vert.png");
 		background-size: cover;
